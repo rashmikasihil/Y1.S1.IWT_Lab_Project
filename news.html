@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>My Shopping Cart</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- javaScript-->
+  <script src ="Js/myScript.js">
+  
+  </script>
+  
+   <script>
+     document.write(Date());
+   </script>
+ </head>
+
+<body>
+      <img class="logo" src="images/cart.png" width="200" height="200" alt="logo">
+<center> 
+      <h1>Shopping Cart</h1>
+      <h3>The online shopping store</h3>   
+     <hr class="hr1"></hr>
+ </center>
+     <ul class="menu">
+         <li class="menu"><a href="index.html">Home</a></li>
+         <li class="menu"><a href="#">News</a></li>
+         <li class="menu"><a href="contact.html">Contact</a></li>
+         <li class="menu"><a href="about.html">About</a></li>
+     </ul>
+ 
+    <!-- JavaScript button-->
+	<br>
+	<button name="btn1" onclick="loadData('btn1')">Iphone XS</button>
+    <button name="btn2" onclick="loadData('btn2')">Iphone XS Max</button>
+	<button name="btn3" onclick="loadData('btn3')">Iphone 8s plus</button>
+	<button name="btn4" onclick="loadData('btn4')">Iphone SE</button>
+    <button name="btn5" onclick="priceForLoop()">Average Price</button>
+	<button name="btn6" onclick="loadData('btn6')">Prices Higher than 1000</button>
+	<button name="btn7" onclick="loadData('btn7')">Prices Lower than 800</button>
+     <br><br>
+	 <center><img id="phoneImg" src="images/iphone XS.jpg"></center>
+	 <p id="para">
+        The iPhone XS models are equipped with a new 7-nanometer A12 Bionic chip that's faster and more 
+		efficient than the A11 in the previous-generation iPhone X. There are two high-performance cores in the 
+		A12 that are up to 15 percent faster than the A11 Bionic and four efficiency cores that use up to 50 percent less power.
+	 </p>
+ 
+ <center>
+<hr class="hr1"></hr>
+ <h3 style="font-weight:bold; font-style:italic;">Created By: <a href=""https://courseweb.sliit.lk/">Sihil Rashmika</a></h3>
+ </center> 
+</body>
+</html>
